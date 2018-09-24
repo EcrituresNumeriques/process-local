@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  process-local:
+    restart: none
+    build: .
+    command: bash /source/exec.sh
+    volumes:
+      - ./input:/input
+      - ./output:/output
