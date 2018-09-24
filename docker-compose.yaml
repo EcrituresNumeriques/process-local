@@ -6,5 +6,6 @@ services:
     build: .
     command: bash /source/exec.sh
     volumes:
+      - ./source:/source
       - ./input:/input
       - ./output:/output

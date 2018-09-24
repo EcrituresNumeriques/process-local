@@ -8,5 +8,3 @@ RUN tar -xzf /usr/local/vendor/linux-ghc8-pandoc-1-19.tar.gz && \
     pip install pandocfilters && \
     apt-get clean -y && \
     rm -rf /usr/local/vendor/pandoc-1.19.2.1-1-amd64.deb /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-COPY ./source/ /source/
