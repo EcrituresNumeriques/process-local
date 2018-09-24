@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "execute script"
-#cat /input/test.txt > /output/test.txt
-echo "added text" > /output/hello.txt
+cat /input/test.txt > /output/test.txt
+echo "added text" >> /output/test.txt
 
 
 #Create erudit XML from HTML
